@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IntervalSolvty-Node extension for KNIME Workbench
+Bundle-SymbolicName: ru.nsc.knime; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: intervalsolvty.jar,
+ lib/interval-solvty-0.1-jar-with-dependencies.jar
+Bundle-Activator: ru.nsc.knime.IntervalSolvtyNodePlugin
+Bundle-Vendor: Artem Shabanov
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: ru.nsc.knime
+
